@@ -1,0 +1,8 @@
+version: '3',
+    services:
+        rasa:
+          container_name: "458gdfg3347g",
+          build:
+            context: backend
+          ports:
+            - "5010:5010"
